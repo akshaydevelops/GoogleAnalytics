@@ -6,34 +6,45 @@
 	<array>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64</string>
+			<string>ios-arm64_armv7</string>
 			<key>LibraryPath</key>
 			<string>GoogleAnalytics.framework</string>
-			<key>HeadersPath</key>
-			<string>Headers</string>
-			<key>Platform</key>
-			<string>ios</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
+				<string>armv7</string>
 			</array>
-			<key>SupportedPlatformVariant</key>
-			<string>maccatalyst</string>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-simulator</string>
+			<string>ios-arm64_x86_64-maccatalyst</string>
 			<key>LibraryPath</key>
 			<string>GoogleAnalytics.framework</string>
-			<key>HeadersPath</key>
-			<string>Headers</string>
-			<key>Platform</key>
-			<string>ios</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
 				<string>x86_64</string>
 			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+			<key>SupportedPlatformVariant</key>
+			<string>maccatalyst</string>
+		</dict>
+		<dict>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64_i386_x86_64-simulator</string>
+			<key>LibraryPath</key>
+			<string>GoogleAnalytics.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>i386</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
 		</dict>
@@ -44,4 +55,3 @@
 	<string>1.0</string>
 </dict>
 </plist>
-
